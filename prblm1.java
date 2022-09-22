@@ -8,7 +8,7 @@ public class prblm1 {
         int b= 10;
 
         System.out.println(a+b);
-        System.out.println("sum of  "+ a + " and "+ b + " is= " + (a+b));
+        System.out.println("sum of  "+ a + " and "+ b + " is = " + (a+b));
         System.out.println("Anurag");
 
     }
