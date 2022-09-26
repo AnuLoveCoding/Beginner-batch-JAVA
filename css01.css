@@ -17,6 +17,7 @@ h2,h1{
 li{
     list-style-type: upper-roman;
     font-size: 33px;
+    padding: 10px;
 }
 /* Class Selectoe: use class(.classname)  to line and then give styleing */
 .do{
@@ -80,6 +81,11 @@ article>p{
     color: rgb(250, 107, 5);
 }
 
+body h4,h5{
+    color: blueviolet;
+    padding: 30px;
+
+}
 
 
 
