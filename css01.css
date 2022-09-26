@@ -1,0 +1,103 @@
+/* Type selector */
+h3{
+    color:blanchedalmond;
+    background-color: yellowgreen;
+    /* font-size: 27px; */
+}
+
+/* combined selectors */
+
+h2,h1{
+    color: blue;
+    background-position: 10px;
+    background:mediumslateblue;
+}
+
+/* Li styling */
+li{
+    list-style-type: upper-roman;
+    font-size: 33px;
+}
+/* Class Selectoe: use class(.classname)  to line and then give styleing */
+.do{
+    color: sandybrown;
+    /* list-style-type: square; */
+}
+.name{
+    color: whitesmoke;
+    background-color: blueviolet;
+}
+
+.look{
+    color: rgb(253, 4, 4);
+    list-style-type: square;
+}
+
+/* Id selector: use Id(# id name) to lone and then give styleing */
+
+#pg{
+    color: rgb(4, 247, 4);
+    list-style-type: disc;
+}
+#name1{
+    color: mediumspringgreen;
+    background-color: palevioletred;
+}
+ /* Anchor tag styling */
+ /* a [href="https://www.google.com/"]{
+  background-color: mediumvioletred;
+} */
+
+a{
+    color: goldenrod;
+}
+
+a:hover{
+    color:orangered;
+    text-decoration: none;
+}
+
+
+
+/* Pseudo Class Selector : "Used to style states of element" */
+
+/* :hover */
+/* :visited */
+
+/* p::first-line{
+    color: greenyellow;
+} */
+
+article>h1{
+    color: rgb(27, 4, 4);
+}
+/* article>{
+    color: red(6, 241, 112);
+} */
+
+
+article>p{
+    color: rgb(250, 107, 5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
