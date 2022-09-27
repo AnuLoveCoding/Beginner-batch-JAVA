@@ -4,9 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Box-Model</title>
+    <style>
+        div{
+            padding: 20px;
+            border: 10px solid blue;
+            margin: 20px;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: white;
+            /* background: black; */
+            text-align: center;
+            padding: 20px;
+            float: left;
+
+        }
+        nav{
+            background: black;
+            padding: 5px;
+            /* text-align: center; */
+            overflow: hidden;
+        }
+         nav a:hover{
+         color: orange;
+        }
+        /* nav a:visited{
+            color: tomato;
+        } */
+        .color{
+            color: red;
+        }
+        #total{
+            color:orangered
+        }
+        .theory{
+            color: blue;
+        }
+        table,tr,th{
+            border: 10px solid greenyellow ;
+            /* border-collapse: collapse; */
+            padding: 10px;
+            border: 5px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quod laboriosam ratione? Laboriosam exercitationem sint est blanditiis architecto commodi natus. Alias, voluptas? Quo eligendi sequi nam mollitia fuga impedit culpa reprehenderit assumenda eaque ea nobis, asperiores inventore sunt laudantium aperiam sapiente iure praesentium vero corporis accusamus? Iure earum nam optio amet expedita, enim laboriosam. Molestiae quibusdam sed, odio alias tenetur laudantium omnis culpa animi cumque sit laboriosam sapiente ad earum optio atque iste reiciendis eveniet id ut! Voluptates pariatur accusamus minima optio nulla non rerum, incidunt quis dolor vitae velit neque quaerat deleniti reiciendis, expedita minus saepe libero ea veritatis.
+    </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Course</a>
+       <a href="#">Study-Material</a>
+        <a href="#">Help</a>
+        <a href="#">Login/SignUp</a>
+    </nav><hr><br>
+
+    <table >
+        <tr>
+            <th >Subejct</th>
+            <th>Theory</th>
+            <th>Practical</th>
+            <th>Total Marks</th>
+            <th>Grades</th>
+        </tr>
+        <tr>
+            <th class="color">Science</th>
+            <th class="theory">90</th>
+            <th>40</th>
+            <th id="total">130</th>
+            <th>A+</th>
+        </tr>
+        <tr>
+            <th class="color">Math</th>
+            <th class="theory">75</th>
+            <th>25</th>
+            <th id="total"> 100</th>
+        <th>A</th>
+        </tr>
+        <tr>
+            <th class="color">English</th>
+            <th class="theory">40</th>
+            <th>55</th>
+            <th id="total"> 95</th>
+            <th>B+</th>
+        </tr>
+       
+    </table>
 </body>
 </html>
