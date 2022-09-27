@@ -2,6 +2,9 @@
 h3{
     color:blanchedalmond;
     background-color: yellowgreen;
+    text-align: center;
+    padding: 2px;
+    border: 2rem;
     /* font-size: 27px; */
 }
 

@@ -5,13 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form-type</title>
-    <link rel="stylesheet" href="css01.css">
+    <link rel="stylesheet" href="form2.css">
     <style>
         p{
             color: rebeccapurple;
             /* background-color: pink; */
             /* text-align: center; */
         }
+        .center{
+            text-align: center;
+        }
+
+        input[type="submit"]{
+            background: rgb(104, 104, 36);
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover{
+            background-color: rgb(26, 26, 106);
+            
+        }
+        
     </style>
 </head>
 <body>
@@ -53,8 +70,8 @@
     </ol>
     <a href="https://www.google.com/" title="I am felling Lucky:)" target="_blank">Google</a><br><br>
     <a href="https://www.facebook.com/" title="I am facebook" target="_blank">facebook</a>
-    <p>I am feeling Lucky :)...
-        your are felling lucky:)...</p><hr>
+    <!-- <p>I am feeling Lucky :)...
+        your are felling lucky:)...</p><hr> -->
 
         <article>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -67,7 +84,7 @@
     
 
 <form action="">
-    <h1 style="color: blue;">Payement-method</h1>
+    <h1 style="color: blue;" class="center">Payement-method</h1>
     <h3 style="background-color: red;">Contact-Info</h3>
    <label for="Name" style="color: brown ;"> <p> Name: <input type="text" id="Name" placeholder="EnterName" required="" style="color:blueviolet;"></p></label><br>
    <h3 required="">Gender :</h3>
@@ -102,13 +119,8 @@
      <label for="CVV" class="look">CVV :</label>
      <input type="password" name="CVV" id="CVV" placeholder="Enter_CVV" required=""><hr>
 
- <input type="submit" id=""  value="Pay Now" style="color: orange;">
-    
+ <input type="submit"   value="Pay Now" style="color: orange;" >
     
 </form>
-
-
-
-
 </body>
 </html>
